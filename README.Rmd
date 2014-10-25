@@ -23,4 +23,4 @@ The project contains the following files.
 
 3. Codebook.md. The codebook that details the data that are available in the tidy dataset as well as the manipulations that were performed.
 
-4.Script_Project.R. The source code that was use to create the tidy data set.
+4.run_analysis.R. The source code that was use to create the tidy data set.

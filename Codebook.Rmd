@@ -211,6 +211,6 @@ df$activity<-dactlabel[df$activity,'V2']
 dtidy<-aggregate(df[,-1:-2],by=list(df$activity,df$subject),mean)
 colnames(dtidy)[1:2]<-colnames(df)[1:2]
 filename<-'GetCleanData_Project_tidyData.txt'
-write.table(dtidy,file=filename)
+write.table(dtidy,file=filename,row.names=FALSE)
 ```
 
