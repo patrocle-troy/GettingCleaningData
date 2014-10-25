@@ -1,0 +1,26 @@
+---
+title: "README"
+output:
+  html_document:
+    keep_md: yes
+---
+## Study design
+
+We provide a tidy data set that summarizes some metrics captured by sensors put on 30 volunteers. Measures were taken when the person performed any of one of the six main activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). 
+
+The source data set is presented in [Human Activity Recognition database][1] The dataset can be downloadable as a [zip file][2]. It contains several datafiles, including the README.txt files that presents the datafiles.
+
+[1]:http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+[2]:https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+## Organization of the files
+
+The project contains the following files.
+
+1. README.md. The current file.
+
+2. GetCleanData_Project_tidyData.txt. The tidy data set.
+
+3. Codebook.md. The codebook that details the data that are available in the tidy dataset as well as the manipulations that were performed.
+
+4.Script_Project.R. The source code that was use to create the tidy data set.
